@@ -1,6 +1,4 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+
 import './App.css';
 import Usercard from './components/usercard.jsx';
 
@@ -10,7 +8,7 @@ function App() {
     display: 'grid',
     gridTemplateColumns: 'repeat(4, 1fr)',
     gap: '16px',
-    padding: '16px',
+    padding: '16px'
   };
 
   return (
